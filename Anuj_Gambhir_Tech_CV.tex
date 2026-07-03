@@ -1,0 +1,250 @@
+%-------------------------
+% Anuj Gambhir — Tech CV (AI/ML Engineer, SDE)
+%-------------------------
+\documentclass[letterpaper,10.5pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-0.65in}
+\addtolength{\textheight}{1.35in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{-2pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \small #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \small #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.12in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.18in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%---------- HEADER ----------
+\begin{center}
+    {\LARGE \scshape \textbf{Anuj Gambhir}} \\ \vspace{3pt}
+    \small
+    \href{tel:9599575254}{+91-9599575254} $|$
+    \href{mailto:anujgambhir07@gmail.com}{anujgambhir07@gmail.com} $|$
+    Delhi, India $|$
+    \href{https://www.linkedin.com/in/anuj-gambhir-4651ab402/}{linkedin.com/in/anuj-gambhir-4651ab402} $|$
+    \href{https://www.github.com/anujgambhir07}{github.com/anujgambhir07}
+\end{center}
+\vspace{-12pt}
+
+%---------- SUMMARY ----------
+\section{Summary}
+\small{DTU Biotechnology Engineering student building at the intersection of \textbf{machine learning}, \textbf{generative AI}, and \textbf{production software engineering}. Ships end-to-end ML systems -- RAG pipelines, fine-tuned transformers, ensemble classifiers, computer-vision prototypes, and 5G RAN anomaly detectors -- with an emphasis on rigorous evaluation and honest reporting of results, not just headline metrics. Integrates LLM APIs (Claude, GPT-4, Gemini) into shipped product features and maintains 11+ public repositories spanning ML, IoT, and full-stack work. Strong DSA foundation (150+ problems, Python/C++) and applied statistics background; selected for McKinsey's Forward Programme, evidencing structured problem-solving that transfers directly to systems design and trade-off analysis.}
+\vspace{-4pt}
+
+%---------- EDUCATION ----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Delhi Technological University (DTU)}{Delhi, India}
+    {B.Tech in Biotechnology Engineering}{Aug 2024 -- May 2028}
+    \resumeItemListStart
+      \resumeItem{CGPA: \textbf{7.1/10} (through 3 semesters) $|$ JEE Mains 2024: \textbf{95.8 Percentile} $|$ JEE Advanced 2024: \textbf{Qualified} (Top $\sim$2.5\% nationally)}
+      \resumeItem{Relevant Coursework: Linear Algebra, Probability \& Statistics, Data Structures \& Algorithms, Applied Mathematics}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-6pt}
+
+%---------- SKILLS ----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.12in, label={}, itemsep=1pt, parsep=0pt]
+  \small{
+    \item \textbf{Languages:} Python (Advanced), C++, SQL, HTML/CSS/JavaScript, TypeScript, LaTeX
+    \item \textbf{ML \& Deep Learning:} Supervised/Unsupervised Learning, CNNs, RNNs, Transformers, Transfer Learning, NLP, Reinforcement Learning Fundamentals, Hyperparameter Tuning, Model Evaluation (Precision/Recall/F1, AUC-ROC)
+    \item \textbf{Frameworks \& Libraries:} PyTorch, TensorFlow/Keras, Scikit-learn, XGBoost, LightGBM, HuggingFace Transformers, Pandas, NumPy, Matplotlib, Seaborn
+    \item \textbf{Generative AI / LLMOps:} LangChain, LangGraph, FAISS (vector search), RAG architecture, Prompt Engineering, OpenAI / Claude / Gemini APIs, Multi-model Workflow Orchestration, Agentic AI (learning)
+    \item \textbf{Computer Vision:} ResNet50 transfer learning, satellite image tiling \& change detection, MediaPipe real-time hand/pose tracking
+    \item \textbf{Systems \& Data Engineering:} REST APIs, Flask, ETL Pipelines, Feature Engineering, Statistical Analysis, Docker, Git/GitHub
+    \item \textbf{IoT \& Embedded:} Arduino, ESP32/ESP8266, Sensor Fusion, ADC Data Acquisition, Relay Automation, Embedded Control Logic
+    \item \textbf{Tools:} VS Code, Jupyter, Google Colab, Power BI, Tableau, Figma, WordPress
+    \item \textbf{Competitive Programming:} 150+ DSA problems solved on LeetCode \& Codeforces (arrays, trees, graphs, dynamic programming)
+  }
+\end{itemize}
+\vspace{-6pt}
+
+%---------- EXPERIENCE ----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {5G Research Intern}{DTU Campus}
+    {DTU 5G Lab Summer Internship Programme, Dept. of ECE}{Jun 2026 -- Present}
+    \resumeItemListStart
+      \resumeItem{Built Python data pipelines (NumPy/Pandas) processing live 5G network telemetry streams; conducted statistical analysis across \textbf{10+ network performance variables} to model throughput behavior under variable load conditions.}
+      \resumeItem{Prototyped \textbf{ML-based anomaly detection} on Radio Access Network (RAN) data, isolating latency outliers and packet degradation patterns across multi-node test environments, achieving \textbf{87\% precision} on held-out test sets.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {SAE DTU --- ForgeTrack Technical Track}{DTU Campus}
+    {Applied Software Engineering Cohort}{May 2026 -- Present}
+    \resumeItemListStart
+      \resumeItem{Selected into a structured, sprint-based technical training track; shipped a new production-quality tool each week under deadline constraints, each with its own README, edge-case handling, and Git history.}
+      \resumeItem{Built \textbf{StudyForge}, a Gemini-API-powered CLI study assistant (\texttt{gemini-2.0-flash}); engineered a system prompt with a named persona, strict output templating, and explicit negative constraints, and documented a structured prompt-engineering analysis of the design choices.}
+      \resumeItem{Shipped a zero-dependency Python file-organizer (extension-based sorting, collision-safe renaming, timestamped audit log) and a JSON-backed CLI expense tracker with category filtering -- both covering documented edge cases (empty inputs, permission errors, missing extensions).}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Website \& UI/UX Developer}{Remote}
+    {Freelance / Agency Collaborations}{2025 -- Present}
+    \resumeItemListStart
+      \resumeItem{Built and shipped client marketing sites (e.g., a landscaping-services site) in vanilla HTML/CSS/JS with no framework dependency: scroll-reveal animation system, drag-based before/after comparison slider, lightbox gallery, parallax hero, and 3D-tilt cards -- fully responsive and respecting \texttt{prefers-reduced-motion}.}
+      \resumeItem{Delivered responsive WordPress builds and Figma-to-code UI/UX work for additional freelance and agency clients.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {IoT Data \& Automation Intern}{NSUT Campus}
+    {HHTRF Lab, Netaji Subhas University of Technology}{Jul 2025 -- Dec 2025}
+    \resumeItemListStart
+      \resumeItem{Engineered an automated \textbf{ESP32 data acquisition pipeline} integrating pH, EC, temperature-humidity, LDR, and fluid-control sensor modules for real-time environmental monitoring.}
+      \resumeItem{Developed statistical sensor-fusion frameworks and calibration logic to optimize ingestion accuracy; implemented relay-based actuation and wireless ESP32 communication for smart irrigation workflows.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {AI-Augmented Full-Stack Developer Intern}{Remote}
+    {TrueCompanion}{Jun 2024 -- Sep 2024}
+    \resumeItemListStart
+      \resumeItem{Shipped LLM-powered product features by integrating Claude, Gemini Pro, and OpenAI APIs into live web architecture; orchestrated multi-model AI workflows that cut feature deployment cycles by \textbf{40\%}.}
+      \resumeItem{Audited \textbf{10,000+ user interaction records} to pinpoint UX bottlenecks; refactored the front-end codebase based on behavioral data, resolving rendering failures and lifting cross-device performance scores by \textbf{25\%}.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {McKinsey Forward Programme --- Participant}{Remote}
+    {McKinsey \& Company}{12 Weeks, 2025}
+    \resumeItemListStart
+      \resumeItem{Completed 8+ structured, hypothesis-driven case analyses (MECE frameworks, quantitative modeling) under a globally limited-cohort selection -- directly applicable to systems trade-off analysis and technical decision documentation.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-6pt}
+
+%---------- PROJECTS ----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading
+    {\textbf{\href{https://github.com/anujgambhir07/deforestation-detection}{Deforestation Detection via Satellite Imagery}} $|$ \textit{PyTorch, ResNet50, Sentinel-2, EuroSAT}}{2026}
+    \resumeItemListStart
+      \resumeItem{Fine-tuned a ResNet50 (ImageNet-pretrained) on the EuroSAT land-cover dataset (27,000 images, 10 classes), reaching \textbf{93.56\% validation accuracy}; applied the model to Sentinel-2 imagery of Rondônia, Brazil (2020 vs.\ 2024) via tiled 224$\times$224 inference over 4,225 patches.}
+      \resumeItem{Ran a forest$\to$non-forest change-detection pipeline and benchmarked model output against official PRODES deforestation records (5,562.53 km\textsuperscript{2} ground truth vs.\ 0.55 km\textsuperscript{2} detected); authored a gap analysis identifying spectral-classification and resolution limits as root causes rather than overstating results.}
+      \resumeItem{Documented findings and next steps (Siamese/temporal change-detection networks, SAR fusion) -- demonstrating rigorous, failure-aware ML evaluation over cherry-picked metrics.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{LangChain-Powered RAG Knowledge Assistant} $|$ \textit{Python, LangChain, LangGraph, FAISS, OpenAI API}}{2026}
+    \resumeItemListStart
+      \resumeItem{Architected a Retrieval-Augmented Generation pipeline using LangChain and LangGraph for domain-specific Q\&A over large unstructured document corpora, with FAISS-backed semantic search and multi-hop agent reasoning.}
+      \resumeItem{Benchmarked retrieval accuracy, latency, and hallucination rate against baseline GPT-4 prompting; reduced hallucination incidence by \textbf{62\%} via chunking-strategy and retrieval-parameter tuning.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{Sentiment Analysis \& Review Classification Engine} $|$ \textit{PyTorch, HuggingFace, BERT, Flask, Docker}}{2026}
+    \resumeItemListStart
+      \resumeItem{Fine-tuned a pre-trained BERT transformer on 50K+ e-commerce reviews for multi-class sentiment classification, achieving \textbf{91.4\% validation accuracy}; evaluated via precision/recall/F1 with cross-validation.}
+      \resumeItem{Deployed as a Flask REST API with batch-inference support, containerized with Docker for reproducible, real-time scoring.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{\href{https://github.com/anujgambhir07/study_assistant}{StudyForge --- Gemini-Powered CLI Study Assistant}} $|$ \textit{Python, Gemini API, Prompt Engineering}}{2026}
+    \resumeItemListStart
+      \resumeItem{Built a CLI tool using \texttt{gemini-2.0-flash} that generates structured topic study plans and supports contextual follow-up Q\&A within a session.}
+      \resumeItem{Engineered and documented the system prompt design (named persona, literal output template, explicit negative constraints) with an ablation writeup on behavior without the system prompt.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{Customer Churn Prediction via Ensemble ML} $|$ \textit{Scikit-learn, XGBoost, LightGBM, SQL, Power BI}}{2025}
+    \resumeItemListStart
+      \resumeItem{Engineered 25+ features on a 100K-row telecom dataset with SMOTE oversampling; benchmarked Logistic Regression, Random Forest, XGBoost, and LightGBM via grid search, achieving \textbf{AUC-ROC of 0.94}.}
+      \resumeItem{Connected model outputs to a live Power BI dashboard via SQL pipelines for churn-risk segmentation and interpretability reporting.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{\href{https://github.com/anujgambhir07/hand-chord-instrument}{Hand Chord Instrument}} $|$ \textit{MediaPipe, Web Audio API, Canvas, Computer Vision}}{2026}
+    \resumeItemListStart
+      \resumeItem{Built a browser-based, webcam-controlled musical instrument using MediaPipe's real-time hand-landmark tracking (21 points/hand) mapped to two radial chord-selection wheels.}
+      \resumeItem{Implemented gain-ramped Web Audio oscillators to avoid audio clicks, plus scale-locking, snap-to-sector quantization, and multi-octave voicing -- a zero-dependency, single-file, CDN-loaded app.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{Multi-Platform Creator Analytics Platform} $|$ \textit{Python, Meta/YouTube APIs, ETL, Pandas}}{2025 -- Present}
+    \resumeItemListStart
+      \resumeItem{Built Python ETL scripts aggregating \textbf{500K+ daily data points} from Instagram and YouTube via official API integrations, normalizing multi-platform JSON payloads into a unified schema.}
+      \resumeItem{Developed statistical trend models to predict content performance and surface growth-driving insights.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{IoT Automation Systems --- Smart Water Monitoring \& Hydroponics} $|$ \textit{Arduino, ESP32, Sensor Fusion}}{2024}
+    \resumeItemListStart
+      \resumeItem{Built a real-time water-quality IoT system (pH, turbidity, temperature, moisture) with live output to a mobile app and LCD display; designed the full hardware circuit and firmware in Python/C.}
+      \resumeItem{Engineered an ESP32-based automated hydroponic irrigation controller with relay-based actuation, eliminating manual water cycles.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-6pt}
+
+%---------- ACHIEVEMENTS ----------
+\section{Achievements \& Open-Source}
+\begin{itemize}[leftmargin=0.12in, label={}, itemsep=2pt, parsep=0pt]
+  \small{
+    \item \textbf{GitHub:} 11 public repositories spanning ML/computer vision, GenAI tooling, IoT, and full-stack web (\href{https://www.github.com/anujgambhir07}{github.com/anujgambhir07})
+    \item \textbf{Competitive Programming:} 150+ DSA problems on LeetCode \& Codeforces (Python/C++) $|$ Advanced SQL: window functions, CTEs, query optimization
+    \item \textbf{Case Competitions:} \textbf{1st} --- SCEE DTU Case Competition $|$ \textbf{3rd} --- DTU East Campus Case Competition $|$ \textbf{Top 5} --- Marksoc DTU Marketing Challenge $|$ \textbf{Winner} --- Brand Blend Challenge
+    \item \textbf{Selection:} McKinsey Forward Programme (globally limited cohort, 2025)
+  }
+\end{itemize}
+
+\end{document}

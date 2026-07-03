@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en" data-mode="engineer">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Anuj Gambhir — ML Engineer × Strategist</title>
+<meta name="description" content="Portfolio of Anuj Gambhir — ML & GenAI engineer and business strategist. DTU, Delhi. RAG pipelines, 5G anomaly detection, McKinsey Forward, ₹75L pipeline at 18." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230A0912'/%3E%3Ctext x='32' y='42' font-family='monospace' font-size='28' font-weight='bold' fill='%238C7BFF' text-anchor='middle'%3EAG%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://api.fontshare.com" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@500,700,800&f[]=sentient@400,401,701&f[]=general-sans@400,500,600&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css?v=5" />
+</head>
+<body>
+<script>document.body.classList.add("js");</script>
+
+<!-- ================= PRELOADER ================= -->
+<div class="boot" id="boot" aria-hidden="true">
+  <div class="boot-inner">
+    <div class="boot-log mono" id="boot-log"></div>
+    <div class="boot-count mono"><span id="boot-pct">000</span><span class="boot-pct-sym">%</span></div>
+    <div class="boot-name mono">ANUJ.GAMBHIR — RUNTIME v2.0 — DELHI</div>
+  </div>
+  <div class="boot-panel boot-panel-l"></div>
+  <div class="boot-panel boot-panel-r"></div>
+</div>
+
+<!-- ================= CURSOR ================= -->
+<div class="cursor-dot" id="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" id="cursor-ring" aria-hidden="true"></div>
+
+<!-- ================= AMBIENT ================= -->
+<canvas id="field" aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ================= RAILS ================= -->
+<div class="rail rail-l mono" aria-hidden="true">
+  <span class="rail-scroll">SCROLL</span>
+  <span class="rail-track"><span class="rail-progress" id="rail-progress"></span></span>
+</div>
+<div class="rail rail-r mono" aria-hidden="true">
+  <span id="rail-section">01 — BOOT</span>
+</div>
+
+<!-- ================= HEADER ================= -->
+<header class="site-head">
+  <a class="monogram" href="#top" data-hover aria-label="Back to top">
+    <span class="monogram-mark">AG</span>
+    <span class="monogram-sub mono">PORTFOLIO/2026</span>
+  </a>
+
+  <div class="mode-dock" role="group" aria-label="Choose how to read this portfolio">
+    <span class="mode-label mono">READING&nbsp;AS</span>
+    <div class="mode-pill">
+      <button class="mode-btn is-active" data-set-mode="engineer" data-hover aria-pressed="true">Engineer</button>
+      <button class="mode-btn" data-set-mode="strategist" data-hover aria-pressed="false">Strategist</button>
+      <span class="mode-thumb" aria-hidden="true"></span>
+    </div>
+  </div>
+
+  <a class="head-contact mono" href="mailto:anujgambhir07@gmail.com" data-hover>CONTACT ↗</a>
+</header>
+
+<main id="top">
+
+  <!-- ============ 01 · HERO ============ -->
+  <section class="hero" id="hero" data-section="01 — HELLO">
+    <p class="hero-eyebrow mono" data-intro>
+      <span class="dot" aria-hidden="true"></span>
+      <span data-scramble>DELHI, INDIA · 28.61°N 77.21°E</span>&nbsp;—&nbsp;<span data-scramble>DTU ’28 · OPEN TO INTERNSHIPS</span>
+    </p>
+
+    <h1 class="hero-name" aria-label="Anuj Gambhir">
+      <span class="hero-line"><span class="hero-word" data-split>ANUJ</span></span>
+      <span class="hero-line hero-line-outline"><span class="hero-word" data-split>GAMBHIR</span></span>
+    </h1>
+
+    <div class="hero-foot">
+      <p class="hero-thesis" data-intro>
+        <span class="thesis-a">Build systems that think.</span>
+        <span class="thesis-b">Build strategies that win.</span>
+      </p>
+      <p class="hero-sub" data-intro>
+        ML &amp; GenAI engineering on one thread. Business strategy on the other.
+        Same runtime. Flip the switch — the whole page re-targets itself.
+      </p>
+      <div class="hero-cta" data-intro>
+        <a class="btn btn-solid" href="#work" data-hover data-magnetic>Selected work <span aria-hidden="true">↓</span></a>
+        <a class="btn btn-ghost" href="mailto:anujgambhir07@gmail.com" data-hover data-magnetic>Get in touch</a>
+      </div>
+    </div>
+
+    <div class="proc-strip mono" data-intro aria-hidden="true">
+      <span class="proc"><i class="proc-dot proc-dot-a"></i>PROC_01&nbsp;ML+GENAI&nbsp;<span class="proc-bars">▮▮▮▮▮</span>&nbsp;RUNNING</span>
+      <span class="proc"><i class="proc-dot proc-dot-b"></i>PROC_02&nbsp;STRATEGY&nbsp;<span class="proc-bars">▮▮▮▮▮</span>&nbsp;RUNNING</span>
+    </div>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee-band" aria-hidden="true">
+    <div class="marquee marquee-a mono">
+      <div class="marquee-track" data-marquee>
+        <span>87% RAN PRECISION</span><i>✦</i><span>−62% HALLUCINATION</span><i>✦</i>
+        <span>₹75L PIPELINE @ 18</span><i>✦</i><span>AUC-ROC 0.94</span><i>✦</i>
+        <span>130+ INSTITUTES CLOSED</span><i>✦</i><span>91.4% BERT ACCURACY</span><i>✦</i>
+        <span>McKINSEY FORWARD</span><i>✦</i><span>150+ DSA SOLVED</span><i>✦</i>
+      </div>
+    </div>
+    <div class="marquee marquee-b mono">
+      <div class="marquee-track" data-marquee-rev>
+        <span>PYTORCH</span><i>·</i><span>LANGCHAIN</span><i>·</i><span>LANGGRAPH</span><i>·</i>
+        <span>FAISS</span><i>·</i><span>XGBOOST</span><i>·</i><span>HUGGINGFACE</span><i>·</i>
+        <span>MECE</span><i>·</i><span>GTM</span><i>·</i><span>FINANCIAL MODELING</span><i>·</i>
+        <span>GOOGLE ADS</span><i>·</i><span>POWER BI</span><i>·</i><span>DOCKER</span><i>·</i>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 02 · READOUT ============ -->
+  <section class="section" id="about" data-section="02 — READOUT">
+    <div class="section-head" data-reveal>
+      <span class="section-no mono">02</span>
+      <h2 class="section-title display-swap">Readout</h2>
+      <span class="section-note mono">NUMBERS FROM BOTH THREADS</span>
+    </div>
+
+    <p class="lede" id="lede">
+      I’m a Biotechnology Engineering undergrad at Delhi Technological University who moves
+      between two kinds of problems — training and shipping ML systems, and the business
+      questions around them: what to build, how to sell it, and why it matters.
+      When my deforestation model missed 99.99% of ground truth, the gap analysis became
+      the headline, not a footnote. Honest numbers, both threads.
+    </p>
+
+    <ul class="stats" role="list">
+      <li class="stat" data-reveal data-thread="eng">
+        <span class="stat-value mono" data-count="87" data-suffix="%">87%</span>
+        <span class="stat-label">anomaly-detection precision on live 5G RAN telemetry</span>
+      </li>
+      <li class="stat" data-reveal data-thread="eng">
+        <span class="stat-value mono" data-count="62" data-prefix="−" data-suffix="%">−62%</span>
+        <span class="stat-label">LLM hallucination vs GPT-4 baseline, via RAG tuning</span>
+      </li>
+      <li class="stat" data-reveal data-thread="strat">
+        <span class="stat-value mono">₹75L</span>
+        <span class="stat-label">sales pipeline built independently, age 18</span>
+      </li>
+      <li class="stat" data-reveal data-thread="strat">
+        <span class="stat-value mono" data-count="130" data-suffix="+">130+</span>
+        <span class="stat-label">institute tie-ups closed across Delhi-NCR</span>
+      </li>
+      <li class="stat" data-reveal data-thread="eng">
+        <span class="stat-value mono">0.94</span>
+        <span class="stat-label">AUC-ROC, ensemble churn model on 100K rows</span>
+      </li>
+      <li class="stat" data-reveal data-thread="eng">
+        <span class="stat-value mono" data-count="91" data-suffix=".4%">91.4%</span>
+        <span class="stat-label">validation accuracy, BERT on 50K+ reviews</span>
+      </li>
+      <li class="stat" data-reveal data-thread="strat">
+        <span class="stat-value mono" data-count="8" data-suffix="+">8+</span>
+        <span class="stat-label">McKinsey-style case analyses, Forward Programme</span>
+      </li>
+      <li class="stat" data-reveal data-thread="eng">
+        <span class="stat-value mono" data-count="150" data-suffix="+">150+</span>
+        <span class="stat-label">DSA problems — LeetCode &amp; Codeforces, Python/C++</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ============ 03 · DUALITY (pinned split) ============ -->
+  <section class="duality" id="duality" data-section="03 — DUALITY">
+    <div class="duality-stage" id="duality-stage">
+
+      <div class="duality-half duality-eng">
+        <span class="duality-word mono">ENGINEER</span>
+        <ul class="duality-facts mono" role="list">
+          <li>RAG PIPELINES · LANGGRAPH AGENTS</li>
+          <li>BERT FINE-TUNING · 91.4% VAL ACC</li>
+          <li>5G RAN ANOMALY DETECTION · 87%</li>
+          <li>RESNET50 × SENTINEL-2 SATELLITE CV</li>
+          <li>DOCKER · FLASK · ETL · 150+ DSA</li>
+        </ul>
+      </div>
+
+      <div class="duality-half duality-strat" id="duality-strat">
+        <span class="duality-word mono">STRATEGIST</span>
+        <ul class="duality-facts mono" role="list">
+          <li>McKINSEY FORWARD — GLOBAL COHORT</li>
+          <li>₹75L PIPELINE · 130+ INSTITUTES @ 18</li>
+          <li>1ST — GTM CASE COMPETITION</li>
+          <li>LIVE GOOGLE &amp; META AD ACCOUNTS</li>
+          <li>MECE · FINANCIAL MODELING · GTM</li>
+        </ul>
+      </div>
+
+      <div class="duality-seam" id="duality-seam" aria-hidden="true">
+        <span class="duality-seam-chip mono">⇆</span>
+      </div>
+
+      <p class="duality-caption mono" aria-hidden="true">SCROLL — THE SEAM MOVES. SO DO I.</p>
+    </div>
+  </section>
+
+  <!-- ============ 04 · SELECTED WORK (horizontal) ============ -->
+  <section class="work" id="work" data-section="04 — WORK">
+    <div class="section-head work-head" data-reveal>
+      <span class="section-no mono">04</span>
+      <h2 class="section-title display-swap">Selected work</h2>
+      <span class="section-note mono" id="work-note">SORTED FOR: ENGINEERS · DRAG YOUR SCROLL</span>
+    </div>
+
+    <div class="work-pin" id="work-pin">
+      <div class="work-track" id="work-track">
+
+        <article class="wcard" data-thread="eng" data-eng="1" data-strat="4">
+          <span class="wcard-index mono">01</span>
+          <div class="wcard-top mono"><span>2026</span><span class="card-tag" data-tag="eng">ML / CV</span></div>
+          <h3 class="wcard-title display-swap">Deforestation Detection from Orbit</h3>
+          <p class="wcard-desc">ResNet50 transfer-learned on EuroSAT — 93.56% val accuracy — run over 4,225 Sentinel-2 tiles of the Amazon, 2020 vs 2024, then benchmarked against official PRODES records. The 99.99% detection gap became the headline finding, with a full root-cause analysis.</p>
+          <p class="wcard-meta mono">PYTORCH · RESNET50 · SENTINEL-2 · CHANGE DETECTION</p>
+        </article>
+
+        <article class="wcard" data-thread="eng" data-eng="2" data-strat="5">
+          <span class="wcard-index mono">02</span>
+          <div class="wcard-top mono"><span>2026</span><span class="card-tag" data-tag="eng">GENAI</span></div>
+          <h3 class="wcard-title display-swap">RAG Knowledge Assistant</h3>
+          <p class="wcard-desc">Retrieval-augmented Q&amp;A over large document corpora — FAISS semantic search, LangGraph multi-hop agent reasoning. Hallucination down 62% against a GPT-4 baseline through chunking and retrieval-parameter tuning.</p>
+          <p class="wcard-meta mono">LANGCHAIN · LANGGRAPH · FAISS · OPENAI API</p>
+        </article>
+
+        <article class="wcard" data-thread="strat" data-eng="4" data-strat="1">
+          <span class="wcard-index mono">03</span>
+          <div class="wcard-top mono"><span>2024</span><span class="card-tag" data-tag="strat">BIZ DEV</span></div>
+          <h3 class="wcard-title display-swap">₹75-Lakh Pipeline at Eighteen</h3>
+          <p class="wcard-desc">Cold-started a verified database of 130+ institutes across Delhi-NCR, ran first-contact conversion, and built a ₹75-lakh potential sales pipeline for an education company — before turning nineteen.</p>
+          <p class="wcard-meta mono">CLIENT ACQUISITION · NEGOTIATION · PIPELINE DESIGN</p>
+        </article>
+
+        <article class="wcard" data-thread="strat" data-eng="5" data-strat="2">
+          <span class="wcard-index mono">04</span>
+          <div class="wcard-top mono"><span>2025</span><span class="card-tag" data-tag="strat">STRATEGY</span></div>
+          <h3 class="wcard-title display-swap">Go-to-Market — 1st Place</h3>
+          <p class="wcard-desc">SCEE DTU Case Competition winner: a data-backed GTM and market-expansion case — MECE issue tree, market sizing, channel prioritization — judged first on rigor and clarity of the final pitch.</p>
+          <p class="wcard-meta mono">MECE · MARKET SIZING · EXEC STORYTELLING</p>
+        </article>
+
+        <article class="wcard" data-thread="eng" data-eng="3" data-strat="6">
+          <span class="wcard-index mono">05</span>
+          <div class="wcard-top mono"><span>2026</span><span class="card-tag" data-tag="eng">NLP</span></div>
+          <h3 class="wcard-title display-swap">Sentiment Classification Engine</h3>
+          <p class="wcard-desc">BERT fine-tuned on 50K+ e-commerce reviews — 91.4% validation accuracy, cross-validated P/R/F1 — shipped as a Dockerized Flask REST API with batch inference for real-time scoring.</p>
+          <p class="wcard-meta mono">PYTORCH · BERT · HUGGINGFACE · FLASK · DOCKER</p>
+        </article>
+
+        <article class="wcard" data-thread="both" data-eng="6" data-strat="3">
+          <span class="wcard-index mono">06</span>
+          <div class="wcard-top mono"><span>2025</span><span class="card-tag" data-tag="both">ML × BIZ</span></div>
+          <h3 class="wcard-title display-swap">Churn Prediction, End to End</h3>
+          <p class="wcard-desc">25+ engineered features on a 100K-row telecom set, SMOTE-balanced; XGBoost / LightGBM / RF benchmarked to AUC-ROC 0.94 — wired into a live Power BI churn-risk dashboard business teams can actually read.</p>
+          <p class="wcard-meta mono">SCIKIT-LEARN · XGBOOST · SQL · POWER BI</p>
+        </article>
+
+      </div>
+    </div>
+
+    <div class="more-work">
+      <h3 class="more-head mono" data-reveal>// MORE FROM THE LOG</h3>
+      <div class="more-grid">
+        <article class="mcard" data-reveal data-thread="both" data-eng="1" data-strat="1">
+          <h4>Creator Analytics Platform</h4>
+          <p>ETL over Instagram &amp; YouTube APIs — 500K+ points/day into one schema, with trend models that forecast content performance.</p>
+          <span class="mono mcard-meta">PYTHON · META/YT APIS · ETL</span>
+        </article>
+        <article class="mcard" data-reveal data-thread="eng" data-eng="2" data-strat="4">
+          <h4>StudyForge — Gemini CLI</h4>
+          <p>A CLI study planner with an engineered system prompt, plus a written ablation of exactly what breaks without it.</p>
+          <span class="mono mcard-meta">PYTHON · GEMINI API · PROMPTING</span>
+        </article>
+        <article class="mcard" data-reveal data-thread="eng" data-eng="3" data-strat="5">
+          <h4>Hand Chord Instrument</h4>
+          <p>A browser instrument played with bare hands — MediaPipe landmarks onto radial chord wheels, click-free Web Audio.</p>
+          <span class="mono mcard-meta">MEDIAPIPE · WEB AUDIO · VANILLA JS</span>
+        </article>
+        <article class="mcard" data-reveal data-thread="eng" data-eng="4" data-strat="6">
+          <h4>IoT Automation Systems</h4>
+          <p>Four-sensor water-quality monitor + ESP32 hydroponic controller whose relay logic removed manual watering entirely.</p>
+          <span class="mono mcard-meta">ARDUINO · ESP32 · SENSOR FUSION</span>
+        </article>
+        <article class="mcard" data-reveal data-thread="strat" data-eng="5" data-strat="2">
+          <h4>Competition Record</h4>
+          <p>3rd — corporate turnaround case. Top 5 — Marksoc marketing challenge. Winner — Brand Blend strategic pitch.</p>
+          <span class="mono mcard-meta">TURNAROUND · INSIGHT · BRAND</span>
+        </article>
+        <article class="mcard" data-reveal data-thread="strat" data-eng="6" data-strat="3">
+          <h4>Paid Media, Live Accounts</h4>
+          <p>Real budgets on Google &amp; Meta for e-commerce brands — targeting, remarketing, conversion optimization, weekly.</p>
+          <span class="mono mcard-meta">GOOGLE ADS · META · CRO</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 05 · PROCESS LOG ============ -->
+  <section class="section" id="log" data-section="05 — LOG">
+    <div class="section-head" data-reveal>
+      <span class="section-no mono">05</span>
+      <h2 class="section-title display-swap">Process log</h2>
+      <span class="section-note mono">FOUR YEARS · TWO THREADS · APPEND-ONLY</span>
+    </div>
+
+    <ol class="log" role="list">
+      <li class="log-entry" data-reveal data-thread="eng">
+        <span class="log-time mono">JUN 2026 — NOW</span>
+        <div class="log-body">
+          <h3>5G Research Intern <span class="log-org">DTU 5G Lab, Dept. of ECE</span></h3>
+          <p>Python pipelines on live network telemetry; ML anomaly detection on RAN data — 87% precision across multi-node environments.</p>
+        </div>
+        <span class="log-tag mono" data-tag="eng">ENG</span>
+      </li>
+      <li class="log-entry" data-reveal data-thread="eng">
+        <span class="log-time mono">MAY 2026 — NOW</span>
+        <div class="log-body">
+          <h3>ForgeTrack Technical Track <span class="log-org">SAE DTU</span></h3>
+          <p>Sprint-based cohort: a shipped, documented tool every week — a Gemini-powered CLI study assistant among them.</p>
+        </div>
+        <span class="log-tag mono" data-tag="eng">ENG</span>
+      </li>
+      <li class="log-entry" data-reveal data-thread="both">
+        <span class="log-time mono">2025 — NOW</span>
+        <div class="log-body">
+          <h3>Freelance Web &amp; Digital Marketing <span class="log-org">Independent</span></h3>
+          <p>Client sites end-to-end (WordPress, vanilla JS, Figma) plus live Google &amp; Meta ad accounts for e-commerce brands.</p>
+        </div>
+        <span class="log-tag mono" data-tag="both">ENG+STRAT</span>
+      </li>
+      <li class="log-entry" data-reveal data-thread="eng">
+        <span class="log-time mono">JUL — DEC 2025</span>
+        <div class="log-body">
+          <h3>IoT Data &amp; Automation Intern <span class="log-org">HHTRF Lab, NSUT</span></h3>
+          <p>ESP32 acquisition pipeline over five sensor families; statistical sensor fusion for real-time reliability.</p>
+        </div>
+        <span class="log-tag mono" data-tag="eng">ENG</span>
+      </li>
+      <li class="log-entry" data-reveal data-thread="strat">
+        <span class="log-time mono">2025 · 12 WEEKS</span>
+        <div class="log-body">
+          <h3>McKinsey Forward Programme <span class="log-org">McKinsey &amp; Company</span></h3>
+          <p>Globally limited cohort. 8+ quantitative cases — MECE trees, financial modeling, recommendation-first storytelling.</p>
+        </div>
+        <span class="log-tag mono" data-tag="strat">STRAT</span>
+      </li>
+      <li class="log-entry" data-reveal data-thread="strat">
+        <span class="log-time mono">JUN — AUG 2024</span>
+        <div class="log-body">
+          <h3>Sales Manager &amp; Campaign Strategist <span class="log-org">Delhi-based edu organization</span></h3>
+          <p>130+ institute tie-ups from cold outreach; ₹75-lakh potential pipeline across five branches. Age 18.</p>
+        </div>
+        <span class="log-tag mono" data-tag="strat">STRAT</span>
+      </li>
+      <li class="log-entry" data-reveal data-thread="eng">
+        <span class="log-time mono">JUN — SEP 2024</span>
+        <div class="log-body">
+          <h3>AI Full-Stack Developer Intern <span class="log-org">TrueCompanion</span></h3>
+          <p>Claude, Gemini &amp; OpenAI APIs into a live product — deploy cycles down 40%; 10K+ interaction records audited, performance up 25%.</p>
+        </div>
+        <span class="log-tag mono" data-tag="eng">ENG</span>
+      </li>
+      <li class="log-entry" data-reveal data-thread="eng">
+        <span class="log-time mono">2024</span>
+        <div class="log-body">
+          <h3>Biotech Research Intern <span class="log-org">Dept. of Biotechnology, DTU</span></h3>
+          <p>Independent wet-lab research: iron-oxide nanoparticle biosynthesis via <em>Bacillus</em>; instrument characterization.</p>
+        </div>
+        <span class="log-tag mono" data-tag="eng">LAB</span>
+      </li>
+      <li class="log-entry" data-reveal data-thread="strat">
+        <span class="log-time mono">FEB 2022 — NOW</span>
+        <div class="log-body">
+          <h3>Educator — Physics, Chemistry, Maths <span class="log-org">IB · IGCSE · JEE, independent</span></h3>
+          <p>Four years of client-facing teaching; personalized curricula and doubt-solving that predate everything above.</p>
+        </div>
+        <span class="log-tag mono" data-tag="strat">COMMS</span>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ============ 06 · STACK ============ -->
+  <section class="section" id="stack" data-section="06 — STACK">
+    <div class="section-head" data-reveal>
+      <span class="section-no mono">06</span>
+      <h2 class="section-title display-swap">Stack</h2>
+      <span class="section-note mono">BOTH THREADS, DECLARED</span>
+    </div>
+
+    <div class="stack-grid">
+      <div class="stack-col" data-reveal>
+        <h3 class="stack-head mono" data-tag="eng">// SYSTEMS</h3>
+        <ul class="chips" role="list">
+          <li data-hover>Python</li><li data-hover>C++</li><li data-hover>SQL</li><li data-hover>PyTorch</li><li data-hover>TensorFlow</li>
+          <li data-hover>Scikit-learn</li><li data-hover>XGBoost</li><li data-hover>HuggingFace</li><li data-hover>LangChain</li>
+          <li data-hover>LangGraph</li><li data-hover>FAISS</li><li data-hover>RAG</li><li data-hover>Prompt Engineering</li>
+          <li data-hover>Flask</li><li data-hover>Docker</li><li data-hover>Git</li><li data-hover>ETL</li><li data-hover>ESP32 / Arduino</li>
+        </ul>
+      </div>
+      <div class="stack-col" data-reveal>
+        <h3 class="stack-head mono" data-tag="strat">// STRATEGY</h3>
+        <ul class="chips" role="list">
+          <li data-hover>MECE Frameworks</li><li data-hover>Financial Modeling</li><li data-hover>Go-to-Market</li>
+          <li data-hover>Market Research</li><li data-hover>Negotiation</li><li data-hover>Client Acquisition</li>
+          <li data-hover>Google Ads</li><li data-hover>Meta Ads</li><li data-hover>Power BI</li><li data-hover>Tableau</li>
+          <li data-hover>Excel (Advanced)</li><li data-hover>Figma</li><li data-hover>Premiere Pro</li><li data-hover>After Effects</li>
+          <li data-hover>Public Speaking</li><li data-hover>English · German (A1)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 07 · CONTACT ============ -->
+  <section class="section contact" id="contact" data-section="07 — CONTACT">
+    <div class="section-head" data-reveal>
+      <span class="section-no mono">07</span>
+      <h2 class="section-title display-swap">Contact</h2>
+      <span class="section-note mono">LATENCY: LOW</span>
+    </div>
+
+    <p class="contact-prompt mono" data-reveal>$ ./connect --with anuj --re "internship | project | anything sharp"</p>
+
+    <a class="contact-mail display-swap" data-reveal data-hover data-magnetic href="mailto:anujgambhir07@gmail.com">
+      <span class="contact-mail-fill">anujgambhir07<wbr>@gmail.com</span>
+    </a>
+
+    <div class="contact-links" data-reveal>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/anuj-gambhir-4651ab402/" target="_blank" rel="noopener" data-hover data-magnetic>LinkedIn ↗</a>
+      <a class="btn btn-ghost" href="https://www.github.com/anujgambhir07" target="_blank" rel="noopener" data-hover data-magnetic>GitHub ↗</a>
+      <a class="btn btn-ghost" href="tel:+919599575254" data-hover data-magnetic>+91 95995 75254</a>
+    </div>
+
+    <footer class="foot">
+      <span class="mono">© 2026 ANUJ GAMBHIR — DESIGNED &amp; ENGINEERED IN DELHI</span>
+      <span class="mono foot-quote">“BUILD SYSTEMS THAT THINK. BUILD STRATEGIES THAT WIN.”</span>
+    </footer>
+  </section>
+
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
+<script src="main.js?v=5"></script>
+</body>
+</html>
